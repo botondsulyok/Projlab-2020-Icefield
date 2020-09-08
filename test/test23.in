@@ -1,0 +1,46 @@
+field spawn0 0
+field spawn1 0
+field spawn2 0
+entity master0 Eskimo spawn0
+entity master1 Eskimo spawn1
+entity master2 Eskimo spawn2
+stats spawn0
+stats spawn1
+stats spawn2
+stats master0
+stats master1
+stats master2
+assemble master0
+item pis0 Pistol master0
+item cart1 Cartridge master1
+item light2 Light master2
+stats master0
+stats master1
+stats master2
+assemble master0
+assemble master1
+assemble master2
+item cart0 Cartridge master0
+item light1 Light master1
+item pis2 Pistol master2
+stats master0
+stats master1
+stats master2
+assemble master0
+assemble master1
+assemble master2
+item cart00 Cartridge master0
+item light11 Light master1
+item pis22 Pistol master2
+stats master0
+stats master1
+stats master2
+assemble master0
+assemble master1
+assemble master2
+stats spawn0
+stats spawn1
+stats spawn2
+stats master0
+stats master1
+stats master2

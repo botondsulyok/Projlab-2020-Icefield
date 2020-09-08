@@ -1,0 +1,12 @@
+id: f1
+type: unstable
+building: b1
+snow: 3
+pickable: i1
+standers: e1
+pullers: e1
+masters: e1
+neighbours: null
+capacity: 5
+broken: false
+

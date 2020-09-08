@@ -1,0 +1,34 @@
+field start1 0
+field end1 0
+neighbours start1 end1
+neighbours end1 start1
+field start2 0
+field end2 0
+neighbours start2 end2
+neighbours end2 start2
+entity esk1 Eskimo start1
+entity pb1 icebear end1
+entity esk2 Eskimo end2
+entity pb2 icebear start2
+stats start1
+stats end1
+stats start2
+stats end2
+stats esk1
+stats pb1
+stats esk2
+stats pb2
+move esk1 end1
+stats esk1
+stats pb1
+move pb2 end2
+stats esk2
+stats pb2
+stats start1
+stats end1
+stats start2
+stats end2
+stats esk1
+stats pb1
+stats esk2
+stats pb2

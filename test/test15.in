@@ -1,0 +1,15 @@
+field spawn 0
+field unstable 1 false 0
+neighbours spawn unstable
+neighbours unstable spawn
+entity mover Eskimo spawn
+entity falsepuller Eskimo spawn
+stats spawn
+stats unstable
+stats mover
+stats falsepuller
+move mover unstable
+stats spawn
+stats unstable
+stats mover
+stats falsepuller

@@ -1,0 +1,16 @@
+field spawn1 0
+field spawn2 0
+entity esk1 Eskimo spawn1
+entity esk2 Eskimo spawn2
+item shovel Shovel spawn1
+item breakable breakable spawn2
+stats spawn1
+stats spawn2
+stats esk1
+stats esk2
+dig esk1
+stats spawn1
+stats esk1
+dig esk2
+stats spawn2
+stats esk2

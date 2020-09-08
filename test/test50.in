@@ -1,0 +1,8 @@
+field swimpool 2 true 0
+entity esk Eskimo swimpool
+item tent1 Tent esk
+stats swimpool
+stats esk
+tent esk
+stats swimpool
+stats esk

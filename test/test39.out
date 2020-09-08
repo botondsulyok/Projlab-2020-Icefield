@@ -1,0 +1,88 @@
+id: spawn1
+type: iceunit
+building: plains0
+snow: 0
+pickable: shovel
+standers: esk1
+pullers: esk1
+masters: esk1
+neighbours: null
+
+id: spawn2
+type: iceunit
+building: plains1
+snow: 0
+pickable: breakable
+standers: esk2
+pullers: esk2
+masters: esk2
+neighbours: null
+
+id: esk1
+type: eskimo
+iceUnit: spawn1
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: esk2
+type: eskimo
+iceUnit: spawn2
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: null
+
+id: spawn1
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: esk1
+pullers: esk1
+masters: esk1
+neighbours: null
+
+id: esk1
+type: eskimo
+iceUnit: spawn1
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: shovel
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: spawn2
+type: iceunit
+building: plains1
+snow: 0
+pickable: null
+standers: esk2
+pullers: esk2
+masters: esk2
+neighbours: null
+
+id: esk2
+type: eskimo
+iceUnit: spawn2
+movebehaviour: walk1
+bodyheat: 5
+stamina: 3
+digger: breakable
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: null
+

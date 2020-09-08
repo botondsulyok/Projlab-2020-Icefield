@@ -1,0 +1,34 @@
+id: f1
+type: unstable
+building: plains0
+snow: 3
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: f2, f3
+capacity: 5
+broken: false
+
+id: f2
+type: unstable
+building: plains1
+snow: 2
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: f1
+capacity: 6
+broken: false
+
+id: f3
+type: iceunit
+building: plains2
+snow: 0
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: f1
+

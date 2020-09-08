@@ -1,0 +1,44 @@
+id: stable
+type: iceunit
+building: igloo0
+snow: 0
+pickable: null
+standers: esk
+pullers: esk
+masters: esk
+neighbours: null
+
+id: esk
+type: eskimo
+iceUnit: stable
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: tent1
+components: null
+
+id: stable
+type: iceunit
+building: igloo0
+snow: 0
+pickable: null
+standers: esk
+pullers: esk
+masters: esk
+neighbours: null
+
+id: esk
+type: eskimo
+iceUnit: stable
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: tent1
+components: null
+

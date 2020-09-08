@@ -1,0 +1,25 @@
+The iceunit can hold 3 objects!
+id: spawn
+type: unstable
+building: plains0
+snow: 0
+pickable: null
+standers: exp
+pullers: exp
+masters: exp
+neighbours: null
+capacity: 3
+broken: false
+
+id: exp
+type: explorer
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 4
+stamina: 3
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+

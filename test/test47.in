@@ -1,0 +1,8 @@
+field spawn 0
+entity builder Eskimo spawn
+item tent1 Tent builder
+stats spawn
+stats builder
+tent builder
+stats spawn
+stats builder

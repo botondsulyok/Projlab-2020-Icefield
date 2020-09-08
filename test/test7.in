@@ -1,0 +1,7 @@
+field unstable 2 true 0
+stats unstable
+entity e1 Eskimo unstable
+entity e2 Eskimo unstable
+entity e3 Eskimo unstable
+entity e4 Eskimo unstable
+stats unstable

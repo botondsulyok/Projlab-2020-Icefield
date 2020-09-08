@@ -1,0 +1,13 @@
+field spawn 2
+entity esk Eskimo spawn
+stats spawn
+stats esk
+dig esk
+stats spawn
+stats esk
+dig esk
+stats spawn
+stats esk
+dig esk
+stats spawn
+stats esk

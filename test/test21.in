@@ -1,0 +1,5 @@
+field spawn 3 false 0
+entity exp Explorer spawn
+ability spawn exp
+stats spawn
+stats exp

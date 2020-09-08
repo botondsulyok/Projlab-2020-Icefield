@@ -1,0 +1,16 @@
+field stable 0
+field unstable 1 false 0
+neighbours stable unstable
+neighbours unstable stable
+entity mover Eskimo stable
+entity puller Eskimo stable
+stats stable
+stats unstable
+item rope1 rope puller
+item ds1 suit mover
+stats mover
+stats puller
+move mover unstable
+stats mover
+stats unstable
+stats stable

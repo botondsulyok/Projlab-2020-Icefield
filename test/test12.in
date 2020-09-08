@@ -1,0 +1,12 @@
+field stable 0
+field unstable 1 false 0
+neighbours stable unstable
+neighbours unstable stable
+entity pb1 icebear stable
+stats stable
+stats unstable
+stats pb1
+move pb1 unstable
+stats stable
+stats unstable
+stats pb1

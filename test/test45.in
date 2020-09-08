@@ -1,0 +1,11 @@
+field spawn 0
+entity esk Eskimo spawn
+item food1 Food spawn
+stats spawn
+stats esk
+storm esk
+storm esk
+stats esk
+dig esk
+stats spawn
+stats esk

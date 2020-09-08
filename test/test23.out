@@ -1,0 +1,240 @@
+id: spawn0
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: master0
+pullers: master0
+masters: master0
+neighbours: null
+
+id: spawn1
+type: iceunit
+building: plains1
+snow: 0
+pickable: null
+standers: master1
+pullers: master1
+masters: master1
+neighbours: null
+
+id: spawn2
+type: iceunit
+building: plains2
+snow: 0
+pickable: null
+standers: master2
+pullers: master2
+masters: master2
+neighbours: null
+
+id: master0
+type: eskimo
+iceUnit: spawn0
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: master1
+type: eskimo
+iceUnit: spawn1
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: null
+
+id: master2
+type: eskimo
+iceUnit: spawn2
+movebehaviour: walk2
+bodyheat: 5
+stamina: 4
+digger: barehand2
+waterProtecter: lung2
+pullerDevice: basicpull2
+tent: null
+components: null
+
+id: master0
+type: eskimo
+iceUnit: spawn0
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: pis0
+
+id: master1
+type: eskimo
+iceUnit: spawn1
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: cart1
+
+id: master2
+type: eskimo
+iceUnit: spawn2
+movebehaviour: walk2
+bodyheat: 5
+stamina: 4
+digger: barehand2
+waterProtecter: lung2
+pullerDevice: basicpull2
+tent: null
+components: light2
+
+id: master0
+type: eskimo
+iceUnit: spawn0
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: pis0, cart0
+
+id: master1
+type: eskimo
+iceUnit: spawn1
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: cart1, light1
+
+id: master2
+type: eskimo
+iceUnit: spawn2
+movebehaviour: walk2
+bodyheat: 5
+stamina: 4
+digger: barehand2
+waterProtecter: lung2
+pullerDevice: basicpull2
+tent: null
+components: light2, pis2
+
+id: master0
+type: eskimo
+iceUnit: spawn0
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: pis0, cart0, cart00
+
+id: master1
+type: eskimo
+iceUnit: spawn1
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: cart1, light1, light11
+
+id: master2
+type: eskimo
+iceUnit: spawn2
+movebehaviour: walk2
+bodyheat: 5
+stamina: 4
+digger: barehand2
+waterProtecter: lung2
+pullerDevice: basicpull2
+tent: null
+components: light2, pis2, pis22
+
+id: spawn0
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: master0
+pullers: master0
+masters: master0
+neighbours: null
+
+id: spawn1
+type: iceunit
+building: plains1
+snow: 0
+pickable: null
+standers: master1
+pullers: master1
+masters: master1
+neighbours: null
+
+id: spawn2
+type: iceunit
+building: plains2
+snow: 0
+pickable: null
+standers: master2
+pullers: master2
+masters: master2
+neighbours: null
+
+id: master0
+type: eskimo
+iceUnit: spawn0
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: pis0, cart0, cart00
+
+id: master1
+type: eskimo
+iceUnit: spawn1
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: cart1, light1, light11
+
+id: master2
+type: eskimo
+iceUnit: spawn2
+movebehaviour: walk2
+bodyheat: 5
+stamina: 4
+digger: barehand2
+waterProtecter: lung2
+pullerDevice: basicpull2
+tent: null
+components: light2, pis2, pis22
+

@@ -1,0 +1,99 @@
+id: start
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: pb
+pullers: null
+masters: null
+neighbours: end
+
+id: end
+type: iceunit
+building: igloo0
+snow: 0
+pickable: null
+standers: esk1, esk2
+pullers: esk1, esk2
+masters: esk1, esk2
+neighbours: start
+
+id: esk1
+type: eskimo
+iceUnit: end
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: esk2
+type: eskimo
+iceUnit: end
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: null
+
+id: pb
+type: icebear
+iceUnit: start
+movebehaviour: amph0
+
+Game Over
+id: start
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: end
+
+id: end
+type: iceunit
+building: igloo0
+snow: 0
+pickable: null
+standers: esk1, esk2, pb
+pullers: esk1, esk2
+masters: esk1, esk2
+neighbours: start
+
+id: esk1
+type: eskimo
+iceUnit: end
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: esk2
+type: eskimo
+iceUnit: end
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: null
+
+id: pb
+type: icebear
+iceUnit: end
+movebehaviour: amph0
+

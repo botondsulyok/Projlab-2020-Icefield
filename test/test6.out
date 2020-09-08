@@ -1,0 +1,72 @@
+id: b1
+type: unstable
+building: plains0
+snow: 0
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: null
+capacity: 3
+broken: false
+
+id: b1
+type: unstable
+building: plains0
+snow: 0
+pickable: null
+standers: ib1
+pullers: null
+masters: null
+neighbours: null
+capacity: 3
+broken: false
+
+id: b1
+type: unstable
+building: plains0
+snow: 0
+pickable: null
+standers: ib1, ib2
+pullers: null
+masters: null
+neighbours: null
+capacity: 3
+broken: false
+
+id: b1
+type: unstable
+building: plains1
+snow: 0
+pickable: null
+standers: ib1, ib2, ib3
+pullers: null
+masters: null
+neighbours: null
+capacity: 3
+broken: true
+
+id: b1
+type: unstable
+building: plains1
+snow: 0
+pickable: null
+standers: ib1, ib2, ib3, ib4
+pullers: null
+masters: null
+neighbours: null
+capacity: 3
+broken: true
+
+id: b1
+type: unstable
+building: plains1
+snow: 0
+pickable: null
+standers: ib1, ib2, ib3, ib4, ib5
+pullers: null
+masters: null
+neighbours: null
+capacity: 3
+broken: true
+

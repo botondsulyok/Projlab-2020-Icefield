@@ -1,0 +1,12 @@
+field stable 0
+field hole 1 true 1
+neighbours stable hole
+neighbours hole stable
+entity mover Eskimo stable
+stats stable
+stats hole
+stats mover
+move mover hole
+stats stable
+stats hole
+stats mover

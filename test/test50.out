@@ -1,0 +1,49 @@
+Game Over
+id: swimpool
+type: unstable
+building: plains0
+snow: 0
+pickable: null
+standers: esk
+pullers: esk
+masters: esk
+neighbours: null
+capacity: 2
+broken: true
+
+id: esk
+type: eskimo
+iceUnit: swimpool
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: tent1
+components: null
+
+id: swimpool
+type: unstable
+building: plains0
+snow: 0
+pickable: null
+standers: esk
+pullers: esk
+masters: esk
+neighbours: null
+capacity: 2
+broken: true
+
+id: esk
+type: eskimo
+iceUnit: swimpool
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: tent1
+components: null
+

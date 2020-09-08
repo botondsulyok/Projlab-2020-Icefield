@@ -1,0 +1,49 @@
+Game Over
+id: spawn
+type: unstable
+building: plains0
+snow: 0
+pickable: null
+standers: builder
+pullers: builder
+masters: builder
+neighbours: null
+capacity: 1
+broken: true
+
+id: builder
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: spawn
+type: unstable
+building: plains0
+snow: 0
+pickable: null
+standers: builder
+pullers: builder
+masters: builder
+neighbours: null
+capacity: 1
+broken: true
+
+id: builder
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+

@@ -1,0 +1,36 @@
+id: esk1
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: esk1
+type: eskimo
+iceUnit: dry
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: esk1
+type: eskimo
+iceUnit: dry
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+

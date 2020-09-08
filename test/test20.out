@@ -1,0 +1,11 @@
+The iceunit is stable!
+id: spawn
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: exp
+pullers: exp
+masters: exp
+neighbours: null
+

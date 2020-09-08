@@ -1,0 +1,18 @@
+field spawn 0
+entity esk1 Eskimo spawn
+entity esk2 Eskimo spawn
+item tent1 Tent esk1
+stats spawn
+stats esk1
+stats esk2
+tent esk1
+stats spawn
+stats esk1
+stats esk2
+storm esk1
+stats esk1
+stats esk2
+storm esk2
+stats spawn
+stats esk1
+stats esk2

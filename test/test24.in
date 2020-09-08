@@ -1,0 +1,13 @@
+field spawn 0
+entity master Eskimo spawn
+item pist1 Pistol master
+item cart1 Cartridge master
+item light1 Light master
+item pist2 Pistol master
+item cart2 Cartridge master
+item light2 Light master
+stats spawn
+stats master
+assemble master
+stats spawn
+stats master

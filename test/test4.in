@@ -1,0 +1,11 @@
+field spawn 0
+field dry 0
+field wet 5 true 0
+neighbours spawn dry
+neighbours dry wet
+entity esk1 Eskimo spawn
+stats esk1
+move esk1 dry
+stats esk1
+move esk1 wet
+stats esk1

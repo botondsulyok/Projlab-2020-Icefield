@@ -1,0 +1,117 @@
+Game Over
+id: spawn
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: drowner
+pullers: drowner
+masters: drowner
+neighbours: unstable
+
+id: unstable
+type: unstable
+building: plains1
+snow: 0
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: spawn, swimpool
+capacity: 1
+broken: false
+
+id: swimpool
+type: unstable
+building: plains2
+snow: 0
+pickable: null
+standers: swimmer
+pullers: swimmer
+masters: swimmer
+neighbours: unstable
+capacity: 1
+broken: true
+
+id: drowner
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: swimmer
+type: eskimo
+iceUnit: swimpool
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: rope1
+tent: null
+components: null
+
+id: spawn
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: unstable
+
+id: unstable
+type: unstable
+building: plains4
+snow: 0
+pickable: null
+standers: drowner
+pullers: drowner
+masters: drowner
+neighbours: spawn, swimpool
+capacity: 1
+broken: true
+
+id: swimpool
+type: unstable
+building: plains2
+snow: 0
+pickable: null
+standers: swimmer
+pullers: swimmer
+masters: swimmer
+neighbours: unstable
+capacity: 1
+broken: true
+
+id: drowner
+type: eskimo
+iceUnit: unstable
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: swimmer
+type: eskimo
+iceUnit: swimpool
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: rope1
+tent: null
+components: null
+

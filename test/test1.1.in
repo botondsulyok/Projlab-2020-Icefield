@@ -1,0 +1,6 @@
+field f1 5 false 3
+entity e1 eskimo f1
+building b1 tent f1
+item i1 pistol f1
+savemap testmap1
+stats f1

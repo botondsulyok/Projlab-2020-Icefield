@@ -1,0 +1,24 @@
+id: spawn
+type: iceunit
+building: tent1
+snow: 0
+pickable: null
+standers: esk
+pullers: esk
+masters: esk
+neighbours: null
+
+esk
+
+id: spawn
+type: iceunit
+building: plains1
+snow: 0
+pickable: null
+standers: esk
+pullers: esk
+masters: esk
+neighbours: null
+
+esk
+

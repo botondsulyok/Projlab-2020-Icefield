@@ -1,0 +1,44 @@
+id: spawn
+type: iceunit
+building: plains0
+snow: 0
+pickable: food1
+standers: esk
+pullers: esk
+masters: esk
+neighbours: null
+
+id: esk
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: spawn
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: esk
+pullers: esk
+masters: esk
+neighbours: null
+
+id: esk
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+

@@ -1,0 +1,22 @@
+field spawn 0
+entity esk1 Eskimo spawn
+entity esk2 Eskimo spawn
+entity esk3 Eskimo spawn
+stats spawn
+stats esk1
+stats esk2
+stats esk3
+current
+turn
+current
+turn
+current
+turn
+current
+turn
+current
+turn
+stats spawn
+stats esk1
+stats esk2
+stats esk3

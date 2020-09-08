@@ -1,0 +1,45 @@
+id: spawn
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: master
+pullers: master
+masters: master
+neighbours: null
+
+id: master
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: pist1, cart1, light1, pist2, cart2, light2
+
+Game Won!
+id: spawn
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: master
+pullers: master
+masters: master
+neighbours: null
+
+id: master
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: pist1, cart1, light1, pist2, cart2, light2
+

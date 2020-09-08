@@ -1,0 +1,17 @@
+field stable 0
+field unstable 2 false 0
+neighbours stable unstable
+neighbours unstable stable
+entity esk Eskimo unstable
+entity pb icebear stable
+item ds1 suit esk
+ability unstable esk
+stats stable
+stats unstable
+stats esk
+stats pb
+move pb unstable
+stats stable
+stats unstable
+stats esk
+stats pb

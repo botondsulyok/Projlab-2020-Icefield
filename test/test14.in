@@ -1,0 +1,20 @@
+field spawn 0
+field unstable 1 false 0
+field swimpool 1 true 0
+neighbours spawn unstable
+neighbours unstable spawn swimpool
+neighbours swimpool unstable
+entity drowner Eskimo spawn
+entity swimmer Eskimo swimpool
+item rope1 Rope swimmer
+stats spawn
+stats unstable
+stats swimpool
+stats drowner
+stats swimmer
+move drowner unstable
+stats spawn
+stats unstable
+stats swimpool
+stats drowner
+stats swimmer

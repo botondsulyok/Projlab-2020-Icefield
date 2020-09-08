@@ -1,0 +1,22 @@
+field stable1 0
+field unstable 1 false 0
+field stable2 0
+neighbours stable1 unstable
+neighbours unstable stable1 stable2
+neighbours stable2 unstable
+entity mover Eskimo stable1
+entity puller1 Eskimo stable1
+entity puller2 Eskimo stable2
+item rope1 Rope puller1
+item rope2 Rope puller2
+stats stable1
+stats unstable
+stats stable2
+stats mover
+stats puller1
+stats puller2
+move mover unstable
+stats mover
+stats unstable
+stats stable1
+stats stable2

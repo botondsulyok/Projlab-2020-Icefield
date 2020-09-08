@@ -1,0 +1,24 @@
+field spawn1 0
+field spawn2 0
+field spawn3 0
+entity esk1 Eskimo spawn1
+entity esk2 Eskimo spawn2
+entity esk3 Eskimo spawn3
+item ps Pistol spawn1
+item cr Cartridge spawn2
+item lg Light spawn3
+stats spawn1
+stats spawn2
+stats spawn3
+stats esk1
+stats esk2
+stats esk3
+dig esk1
+stats spawn1
+stats esk1
+dig esk2
+stats spawn2
+stats esk2
+dig esk3
+stats spawn3
+stats esk3

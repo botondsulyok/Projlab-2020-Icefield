@@ -1,0 +1,20 @@
+field n1 0
+field n2 0
+neighbours n1 n2
+neighbours n2 n1
+field spawn 0
+entity esk Eskimo spawn
+entity pb icebear n1
+stats n1
+stats n2
+stats pb
+stats spawn
+stats esk
+current
+turn
+stats n1
+stats n2
+stats pb
+stats spawn
+stats esk
+current

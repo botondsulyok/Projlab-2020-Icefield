@@ -1,0 +1,93 @@
+id: spawn
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: master1, master2, master3
+pullers: master1, master2, master3
+masters: master1, master2, master3
+neighbours: null
+
+id: master1
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: pist1
+
+id: master2
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: cart1
+
+id: master3
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk2
+bodyheat: 5
+stamina: 4
+digger: barehand2
+waterProtecter: lung2
+pullerDevice: basicpull2
+tent: null
+components: light1
+
+Game Won!
+id: spawn
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: master1, master2, master3
+pullers: master1, master2, master3
+masters: master1, master2, master3
+neighbours: null
+
+id: master1
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: pist1
+
+id: master2
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: cart1
+
+id: master3
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk2
+bodyheat: 5
+stamina: 4
+digger: barehand2
+waterProtecter: lung2
+pullerDevice: basicpull2
+tent: null
+components: light1
+

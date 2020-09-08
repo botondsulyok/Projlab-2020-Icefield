@@ -1,0 +1,54 @@
+id: stable
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: pb1
+pullers: null
+masters: null
+neighbours: unstable
+
+id: unstable
+type: unstable
+building: plains1
+snow: 0
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: stable
+capacity: 1
+broken: false
+
+id: pb1
+type: icebear
+iceUnit: stable
+movebehaviour: amph0
+
+id: stable
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: unstable
+
+id: unstable
+type: unstable
+building: plains2
+snow: 0
+pickable: null
+standers: pb1
+pullers: null
+masters: null
+neighbours: stable
+capacity: 1
+broken: true
+
+id: pb1
+type: icebear
+iceUnit: unstable
+movebehaviour: amph0
+

@@ -1,0 +1,19 @@
+field start 0
+field end 0
+neighbours start end
+neighbours end start
+entity pb icebear start
+entity esk1 Eskimo end
+entity esk2 Eskimo end
+ability end esk1
+stats start
+stats end
+stats esk1
+stats esk2
+stats pb
+move pb end
+stats start
+stats end
+stats esk1
+stats esk2
+stats pb

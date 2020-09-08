@@ -1,0 +1,10 @@
+field f1 5 false 3
+field f2 6 false 2
+field f3 0
+neighbours f1 f2 f3
+neighbours f2 f1
+neighbours f3 f1
+savemap testmap2
+stats f1
+stats f2
+stats f3

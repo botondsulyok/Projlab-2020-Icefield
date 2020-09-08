@@ -1,0 +1,8 @@
+field spawn 0
+entity esk Eskimo spawn
+item tent1 Tent spawn
+stats spawn
+stats esk
+dig esk
+stats spawn
+stats esk

@@ -1,0 +1,9 @@
+field stable 0
+entity esk Eskimo stable
+ability stable esk
+item tent1 Tent esk
+stats stable
+stats esk
+tent esk
+stats stable
+stats esk

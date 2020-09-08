@@ -1,0 +1,20 @@
+field spawn 0
+field dry1 3
+field wet1 5 true 0
+field wet2 3 true 0
+field dry2 0
+neighbours spawn dry1
+neighbours dry1 wet1
+neighbours wet1 wet2
+neighbours wet2 dry2
+entity esk1 Eskimo spawn
+moveBehaviour amph1 Amphibious esk1
+stats esk1
+move esk1 dry1
+stats esk1
+move esk1 wet1
+stats esk1
+move esk1 wet2
+stats esk1
+move esk1 dry2
+stats esk1

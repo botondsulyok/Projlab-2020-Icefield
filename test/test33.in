@@ -1,0 +1,17 @@
+field start 0
+field end 0
+neighbours start end
+neighbours end start
+entity pb icebear start
+entity esk Eskimo end
+item tent1 Tent esk
+tent esk
+stats start
+stats end
+stats esk
+stats pb
+move pb end
+stats start
+stats end
+stats esk
+stats pb

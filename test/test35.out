@@ -1,0 +1,79 @@
+id: stable
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: pb
+pullers: null
+masters: null
+neighbours: unstable
+
+id: unstable
+type: unstable
+building: igloo0
+snow: 0
+pickable: null
+standers: esk
+pullers: esk
+masters: esk
+neighbours: stable
+capacity: 2
+broken: false
+
+id: esk
+type: eskimo
+iceUnit: unstable
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: barehand0
+waterProtecter: ds1
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: pb
+type: icebear
+iceUnit: stable
+movebehaviour: amph0
+
+Game Over
+id: stable
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: unstable
+
+id: unstable
+type: unstable
+building: plains3
+snow: 0
+pickable: null
+standers: esk, pb
+pullers: esk
+masters: esk
+neighbours: stable
+capacity: 2
+broken: true
+
+id: esk
+type: eskimo
+iceUnit: unstable
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: barehand0
+waterProtecter: ds1
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: pb
+type: icebear
+iceUnit: unstable
+movebehaviour: amph0
+

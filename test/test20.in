@@ -1,0 +1,4 @@
+field spawn 0
+entity exp Explorer spawn
+ability spawn exp
+stats spawn

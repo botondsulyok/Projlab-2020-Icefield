@@ -1,0 +1,12 @@
+field b1 3 false 0
+stats b1
+entity ib1 icebear b1
+stats b1
+entity ib2 icebear b1
+stats b1
+entity ib3 icebear b1
+stats b1
+entity ib4 icebear b1
+stats b1
+entity ib5 icebear b1
+stats b1

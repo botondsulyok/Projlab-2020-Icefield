@@ -1,0 +1,44 @@
+id: spawn
+type: iceunit
+building: tent1
+snow: 0
+pickable: null
+standers: builder
+pullers: builder
+masters: builder
+neighbours: null
+
+id: builder
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: spawn
+type: iceunit
+building: tent1
+snow: 0
+pickable: null
+standers: builder
+pullers: builder
+masters: builder
+neighbours: null
+
+id: builder
+type: eskimo
+iceUnit: spawn
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+

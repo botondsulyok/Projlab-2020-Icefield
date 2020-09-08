@@ -1,0 +1,25 @@
+id: ib1
+type: icebear
+iceUnit: spawn
+movebehaviour: amph0
+
+id: ib1
+type: icebear
+iceUnit: dry1
+movebehaviour: amph0
+
+id: ib1
+type: icebear
+iceUnit: wet1
+movebehaviour: amph0
+
+id: ib1
+type: icebear
+iceUnit: wet2
+movebehaviour: amph0
+
+id: ib1
+type: icebear
+iceUnit: dry2
+movebehaviour: amph0
+

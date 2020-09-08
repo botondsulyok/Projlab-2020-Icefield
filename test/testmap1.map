@@ -1,0 +1,47 @@
+id: f1
+type: unstable
+building: b1
+snow: 3
+pickable: i1
+standers: e1
+pullers: e1
+masters: e1
+neighbours: null
+capacity: 5
+broken: false
+
+id: e1
+type: eskimo
+iceUnit: f1
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: barehand0
+type: barehand
+effectiveness: 1
+
+id: basicpull0
+type: basicpull
+
+id: lung0
+type: lung
+
+id: walk0
+type: walk
+
+id: i1
+type: pistol
+
+id: b1
+type: tent
+capacity: 1
+plot: f1
+refugees: null
+health: 1
+

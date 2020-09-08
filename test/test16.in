@@ -1,0 +1,7 @@
+field spawn 0
+entity builder Eskimo spawn
+stats spawn
+stats builder
+ability spawn builder
+stats spawn
+stats builder

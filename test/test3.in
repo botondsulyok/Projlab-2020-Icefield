@@ -1,0 +1,19 @@
+field spawn 0
+field dry1 3
+field wet1 5 true 0
+field wet2 3 true 2
+field dry2 0
+neighbours spawn dry1
+neighbours dry1 wet1
+neighbours wet1 wet2
+neighbours wet2 dry2
+entity ib1 icebear spawn
+stats ib1
+move ib1 dry1
+stats ib1
+move ib1 wet1
+stats ib1
+move ib1 wet2
+stats ib1
+move ib1 dry2
+stats ib1

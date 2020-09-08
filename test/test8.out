@@ -1,0 +1,80 @@
+id: stable
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: mover, puller
+pullers: mover, puller
+masters: mover, puller
+neighbours: unstable
+
+id: unstable
+type: unstable
+building: plains1
+snow: 0
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: stable
+capacity: 1
+broken: false
+
+id: mover
+type: eskimo
+iceUnit: stable
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: ds1
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: puller
+type: eskimo
+iceUnit: stable
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: rope1
+tent: null
+components: null
+
+id: mover
+type: eskimo
+iceUnit: unstable
+movebehaviour: walk0
+bodyheat: 5
+stamina: 3
+digger: barehand0
+waterProtecter: ds1
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: unstable
+type: unstable
+building: plains4
+snow: 0
+pickable: null
+standers: mover
+pullers: mover
+masters: mover
+neighbours: stable
+capacity: 1
+broken: true
+
+id: stable
+type: iceunit
+building: plains0
+snow: 0
+pickable: null
+standers: puller
+pullers: puller
+masters: puller
+neighbours: unstable
+

@@ -1,0 +1,458 @@
+id: iceunit0
+type: iceunit
+building: plains0
+snow: 0
+pickable: shovel0
+standers: eskimo0
+pullers: eskimo0
+masters: eskimo0
+neighbours: iceunit1, iceunit2, iceunit4, iceunit8
+show: false
+x: 10
+y: 400
+width: 160
+height: 120
+
+id: iceunit4
+type: iceunit
+building: plains4
+snow: 4
+pickable: tent0
+standers: explorer1
+pullers: explorer1
+masters: explorer1
+neighbours: iceunit0, iceunit7, iceunit2
+show: false
+x: 110
+y: 600
+width: 160
+height: 120
+
+id: iceunit6
+type: iceunit
+building: plains6
+snow: 0
+pickable: cartridge
+standers: null
+pullers: null
+masters: null
+neighbours: iceunit3, iceunit10, iceunit9, iceunit7
+show: false
+x: 600
+y: 240
+width: 160
+height: 120
+
+id: iceunit3
+type: iceunit
+building: plains3
+snow: 2
+pickable: food0
+standers: explorer0
+pullers: explorer0
+masters: explorer0
+neighbours: iceunit6, iceunit11, iceunit8, iceunit5
+show: false
+x: 1000
+y: 560
+width: 160
+height: 120
+
+id: iceunit10
+type: unstable
+building: plains10
+snow: 2
+pickable: null
+standers: icebear0
+pullers: null
+masters: null
+neighbours: iceunit6, iceunit9, iceunit5
+show: false
+capacity: 4
+broken: false
+x: 1100
+y: 10
+width: 160
+height: 120
+
+id: iceunit8
+type: unstable
+building: plains8
+snow: 0
+pickable: breakable0
+standers: null
+pullers: null
+masters: null
+neighbours: iceunit0, iceunit3, iceunit7, iceunit11
+show: false
+capacity: 4
+broken: false
+x: 400
+y: 620
+width: 160
+height: 120
+
+id: iceunit11
+type: unstable
+building: plains11
+snow: 1
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: iceunit3, iceunit7, iceunit8
+show: false
+capacity: 0
+broken: false
+x: 600
+y: 480
+width: 160
+height: 120
+
+id: iceunit5
+type: iceunit
+building: plains5
+snow: 2
+pickable: pistol
+standers: explorer2
+pullers: explorer2
+masters: explorer2
+neighbours: iceunit9, iceunit10, iceunit7, iceunit3
+show: false
+x: 900
+y: 320
+width: 160
+height: 120
+
+id: iceunit7
+type: unstable
+building: plains7
+snow: 1
+pickable: light
+standers: null
+pullers: null
+masters: null
+neighbours: iceunit1, iceunit4, iceunit8, iceunit11, iceunit6, iceunit5
+show: false
+capacity: 3
+broken: false
+x: 400
+y: 300
+width: 160
+height: 120
+
+id: iceunit9
+type: unstable
+building: plains9
+snow: 4
+pickable: null
+standers: null
+pullers: null
+masters: null
+neighbours: iceunit10, iceunit5, iceunit2, iceunit6
+show: false
+capacity: 2
+broken: false
+x: 730
+y: 40
+width: 160
+height: 120
+
+id: iceunit2
+type: iceunit
+building: plains2
+snow: 0
+pickable: suit0
+standers: eskimo2
+pullers: eskimo2
+masters: eskimo2
+neighbours: iceunit0, iceunit1, iceunit4, iceunit9
+show: false
+x: 275
+y: 12
+width: 160
+height: 120
+
+id: iceunit1
+type: iceunit
+building: plains1
+snow: 3
+pickable: rope0
+standers: eskimo1
+pullers: eskimo1
+masters: eskimo1
+neighbours: iceunit0, iceunit7, iceunit2
+show: false
+x: 100
+y: 27
+width: 160
+height: 120
+
+id: eskimo0
+type: eskimo
+iceUnit: iceunit0
+movebehaviour: walk0
+bodyheat: 5
+stamina: 4
+digger: barehand0
+waterProtecter: lung0
+pullerDevice: basicpull0
+tent: null
+components: null
+
+id: eskimo1
+type: eskimo
+iceUnit: iceunit1
+movebehaviour: walk1
+bodyheat: 5
+stamina: 4
+digger: barehand1
+waterProtecter: lung1
+pullerDevice: basicpull1
+tent: null
+components: null
+
+id: eskimo2
+type: eskimo
+iceUnit: iceunit2
+movebehaviour: walk2
+bodyheat: 5
+stamina: 4
+digger: barehand2
+waterProtecter: lung2
+pullerDevice: basicpull2
+tent: null
+components: null
+
+id: explorer0
+type: explorer
+iceUnit: iceunit3
+movebehaviour: walk3
+bodyheat: 4
+stamina: 4
+digger: barehand3
+waterProtecter: lung3
+pullerDevice: basicpull3
+tent: null
+components: null
+
+id: explorer1
+type: explorer
+iceUnit: iceunit4
+movebehaviour: walk4
+bodyheat: 4
+stamina: 4
+digger: barehand4
+waterProtecter: lung4
+pullerDevice: basicpull4
+tent: null
+components: null
+
+id: explorer2
+type: explorer
+iceUnit: iceunit5
+movebehaviour: walk5
+bodyheat: 4
+stamina: 4
+digger: barehand5
+waterProtecter: lung5
+pullerDevice: basicpull5
+tent: null
+components: null
+
+id: icebear0
+type: icebear
+iceUnit: iceunit10
+movebehaviour: amph0
+
+id: barehand0
+type: barehand
+effectiveness: 1
+
+id: basicpull0
+type: basicpull
+
+id: lung0
+type: lung
+
+id: walk0
+type: walk
+
+id: barehand1
+type: barehand
+effectiveness: 1
+
+id: basicpull1
+type: basicpull
+
+id: lung1
+type: lung
+
+id: walk1
+type: walk
+
+id: barehand2
+type: barehand
+effectiveness: 1
+
+id: basicpull2
+type: basicpull
+
+id: lung2
+type: lung
+
+id: walk2
+type: walk
+
+id: barehand3
+type: barehand
+effectiveness: 1
+
+id: basicpull3
+type: basicpull
+
+id: lung3
+type: lung
+
+id: walk3
+type: walk
+
+id: barehand4
+type: barehand
+effectiveness: 1
+
+id: basicpull4
+type: basicpull
+
+id: lung4
+type: lung
+
+id: walk4
+type: walk
+
+id: barehand5
+type: barehand
+effectiveness: 1
+
+id: basicpull5
+type: basicpull
+
+id: lung5
+type: lung
+
+id: walk5
+type: walk
+
+id: shovel0
+type: shovel
+effectiveness: 2
+
+id: breakable0
+type: breakable
+effectiveness: 2
+durability: 3
+
+id: rope0
+type: rope
+
+id: suit0
+type: suit
+
+id: food0
+type: food
+effectiveness: 2
+
+id: tent0
+type: tent
+capacity: 1
+plot: null
+refugees: null
+health: 1
+
+id: pistol
+type: pistol
+
+id: cartridge
+type: cartridge
+
+id: light
+type: light
+
+id: plains0
+type: plains
+capacity: 0
+plot: iceunit0
+refugees: null
+
+id: plains1
+type: plains
+capacity: 0
+plot: iceunit1
+refugees: null
+
+id: plains2
+type: plains
+capacity: 0
+plot: iceunit2
+refugees: null
+
+id: plains3
+type: plains
+capacity: 0
+plot: iceunit3
+refugees: null
+
+id: plains4
+type: plains
+capacity: 0
+plot: iceunit4
+refugees: null
+
+id: plains5
+type: plains
+capacity: 0
+plot: iceunit5
+refugees: null
+
+id: plains6
+type: plains
+capacity: 0
+plot: iceunit6
+refugees: null
+
+id: plains7
+type: plains
+capacity: 0
+plot: iceunit7
+refugees: null
+
+id: plains8
+type: plains
+capacity: 0
+plot: iceunit8
+refugees: null
+
+id: plains9
+type: plains
+capacity: 0
+plot: iceunit9
+refugees: null
+
+id: plains10
+type: plains
+capacity: 0
+plot: iceunit10
+refugees: null
+
+id: plains11
+type: plains
+capacity: 0
+plot: iceunit11
+refugees: null
+
+type: controller
+current: null
+storm: false
+activechar: eskimo0
+activenumber: 0
+
